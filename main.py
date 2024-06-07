@@ -2,7 +2,6 @@ import streamlit as st
 from lxml import etree
 
 
-# Função para gerar o XML
 def generate_xml(data):
     root = etree.Element(
         "Diploma",
@@ -106,10 +105,8 @@ def generate_xml(data):
     )
 
 
-# Cria o formulário no Streamlit
 st.title("Gerador de XML de Diploma Digital")
 
-# with st.form("diploma_form"):
 nome = st.text_input("Nome")
 cpf = st.text_input("CPF")
 rg = st.text_input("RG")
