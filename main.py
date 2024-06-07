@@ -342,7 +342,7 @@ with tabs[0]:
         )
 
 with tabs[1]:
-    st.title("Gerador de XML de Registros Escolares")
+    st.title("Gerador de XML de Histórico Escolar")
 
     st.header("Dados do Aluno")
     nome_aluno = st.text_input("Nome do Aluno", key="nome_aluno")
