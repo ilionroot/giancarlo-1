@@ -2,60 +2,60 @@
 <Diploma xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
  xmlns="http://portal.mec.gov.br/diplomadigital/arquivos-em-xsd"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <infDiploma versao="1.05" id="VDip11111111111111111111111111111111111111111111" ambiente="Produção">
+    <infDiploma versao="1.05" id="VDip11111111111111111111111111111111111111111111" ambiente="Produção">
         <DadosDiploma id="Dip11111111111111111111111111111111111111111111">
             <Diplomado>
                 <ID>Dip11111111111111111111111111111111111111111111</ID>
-                <Nome>Nome0</Nome>
-                <NomeSocial>NomeSocial0</NomeSocial>
+                <Nome>BANANA</Nome>
+                <NomeSocial>BANANA</NomeSocial>
                 <Sexo>F</Sexo>
-                <Nacionalidade>Nacionalidade0</Nacionalidade>
+                <Nacionalidade>BANANA</Nacionalidade>
                 <Naturalidade>
-                    <NomeMunicipioEstrangeiro>NomeMunicipioEstrangeiro0</NomeMunicipioEstrangeiro>
+                    <NomeMunicipioEstrangeiro>BANANA</NomeMunicipioEstrangeiro>
                 </Naturalidade>
                 <CPF>00000000000</CPF>
                 <RG>
-                    <Numero>Numero0</Numero>
-                    <OrgaoExpedidor>OrgaoExpedidor0</OrgaoExpedidor>
-                    <UF>AC</UF>
+                    <Numero>BANANA</Numero>
+                    <OrgaoExpedidor>BANANA</OrgaoExpedidor>
+                    <UF>SP</UF>
                 </RG>
-                <DataNascimento>2006-05-04</DataNascimento>
+                <DataNascimento>2024-06-09</DataNascimento>
             </Diplomado>
-            <DataConclusao>2006-05-04</DataConclusao>
+            <DataConclusao>2024-06-09</DataConclusao>
             <DadosCurso>
-                <NomeCurso>NomeCurso0</NomeCurso>
+                <NomeCurso>BANANA</NomeCurso>
                 <CodigoCursoEMEC>214748364</CodigoCursoEMEC>
                 <Habilitacao>
-                    <NomeHabilitacao>NomeHabilitacao0</NomeHabilitacao>
-                    <DataHabilitacao>2006-05-04</DataHabilitacao>
+                    <NomeHabilitacao>BANANA</NomeHabilitacao>
+                    <DataHabilitacao>2024-06-09</DataHabilitacao>
                 </Habilitacao>
                 <Habilitacao>
-                    <NomeHabilitacao>NomeHabilitacao1</NomeHabilitacao>
-                    <DataHabilitacao>2006-05-04</DataHabilitacao>
+                    <NomeHabilitacao>BANANA</NomeHabilitacao>
+                    <DataHabilitacao>2024-06-09</DataHabilitacao>
                 </Habilitacao>
                 <Modalidade>Presencial</Modalidade>
                 <TituloConferido>
                     <Titulo>Licenciado</Titulo>
                 </TituloConferido>
                 <GrauConferido>Tecnólogo</GrauConferido>
-                <Enfase>Enfase0</Enfase>
-                <Enfase>Enfase1</Enfase>
+                <Enfase>BANANA</Enfase>
+                <Enfase>BANANA</Enfase>
                 <EnderecoCurso>
-                    <Logradouro>Logradouro0</Logradouro>
-                    <Numero>Numero1</Numero>
-                    <Complemento>Complemento0</Complemento>
-                    <Bairro>Bairro0</Bairro>
+                    <Logradouro>BANANA</Logradouro>
+                    <Numero>BANANA</Numero>
+                    <Complemento>BANANA</Complemento>
+                    <Bairro>BANANA</Bairro>
                     <CodigoMunicipio>0000000</CodigoMunicipio>
-                    <NomeMunicipio>NomeMunicipio0</NomeMunicipio>
-                    <UF>AC</UF>
+                    <NomeMunicipio>BANANA</NomeMunicipio>
+                    <UF>SP</UF>
                     <CEP>00000000</CEP>
                 </EnderecoCurso>
                 <Polo>
-                    <Nome>Nome1</Nome>
+                    <Nome>BANANA</Nome>
                     <Endereco>
-                        <Logradouro>Logradouro1</Logradouro>
-                        <Bairro>Bairro1</Bairro>
-                        <NomeMunicipioEstrangeiro>NomeMunicipioEstrangeiro1</NomeMunicipioEstrangeiro>
+                        <Logradouro>BANANA</Logradouro>
+                        <Bairro>BANANA</Bairro>
+                        <NomeMunicipioEstrangeiro>BANANA</NomeMunicipioEstrangeiro>
                         <CEP>00000000</CEP>
                     </Endereco>
                     <CodigoEMEC>214748364</CodigoEMEC>
@@ -63,16 +63,16 @@
                 <Autorizacao>
                     <InformacoesTramitacaoEMEC>
                         <NumeroProcesso>214748364</NumeroProcesso>
-                        <TipoProcesso>TipoProcesso0</TipoProcesso>
-                        <DataCadastro>2006-05-04</DataCadastro>
-                        <DataProtocolo>2006-05-04</DataProtocolo>
+                        <TipoProcesso>BANANA</TipoProcesso>
+                        <DataCadastro>2024-06-09</DataCadastro>
+                        <DataProtocolo>2024-06-09</DataProtocolo>
                     </InformacoesTramitacaoEMEC>
                 </Autorizacao>
                 <Reconhecimento>
                     <Tipo>Parecer</Tipo>
                     <Numero>S/N</Numero>
-                    <Data>2006-05-04</Data>
-                    <VeiculoPublicacao>VeiculoPublicacao0</VeiculoPublicacao>
+                    <Data>2024-06-09</Data>
+                    <VeiculoPublicacao>BANANA</VeiculoPublicacao>
                     <DataPublicacao>2006-05-04</DataPublicacao>
                     <SecaoPublicacao>214748364</SecaoPublicacao>
                     <PaginaPublicacao>214748364</PaginaPublicacao>
@@ -81,26 +81,26 @@
                 <RenovacaoReconhecimento>
                     <Tipo>Parecer</Tipo>
                     <Numero>S/N</Numero>
-                    <Data>2006-05-04</Data>
-                    <VeiculoPublicacao>VeiculoPublicacao1</VeiculoPublicacao>
-                    <DataPublicacao>2006-05-04</DataPublicacao>
+                    <Data>2024-06-09</Data>
+                    <VeiculoPublicacao>BANANA</VeiculoPublicacao>
+                    <DataPublicacao>2024-06-09</DataPublicacao>
                     <SecaoPublicacao>214748364</SecaoPublicacao>
                     <PaginaPublicacao>214748364</PaginaPublicacao>
                     <NumeroDOU>214748364</NumeroDOU>
                 </RenovacaoReconhecimento>
             </DadosCurso>
             <DadosIesOriginalCursoPTA>
-                <Nome>Nome2</Nome>
+                <Nome>BANANA</Nome>
                 <CodigoMEC_Indisponivel/>
                 <CNPJ>00000000000000</CNPJ>
                 <Endereco>
-                    <Logradouro>Logradouro2</Logradouro>
-                    <Numero>Numero4</Numero>
-                    <Complemento>Complemento1</Complemento>
-                    <Bairro>Bairro2</Bairro>
+                    <Logradouro>BANANA</Logradouro>
+                    <Numero>BANANA</Numero>
+                    <Complemento>BANANA</Complemento>
+                    <Bairro>BANANA</Bairro>
                     <CodigoMunicipio>0000000</CodigoMunicipio>
-                    <NomeMunicipio>NomeMunicipio1</NomeMunicipio>
-                    <UF>AC</UF>
+                    <NomeMunicipio>BANANA</NomeMunicipio>
+                    <UF>SP</UF>
                     <CEP>00000000</CEP>
                 </Endereco>
                 <Descredenciamento>
@@ -178,7 +178,7 @@
         </DadosDiploma>
         <DadosRegistro id="RDip11111111111111111111111111111111111111111111">
             <IesRegistradora>
-                <Nome>Nome4</Nome>
+                <Nome>BANANA</Nome>
                 <CodigoMEC>214748364</CodigoMEC>
                 <CNPJ>00000000000000</CNPJ>
                 <Endereco>
@@ -258,15 +258,15 @@
             <Seguranca>
                 <CodigoValidacao>0.0.000000000000</CodigoValidacao>
             </Seguranca>
-            <InformacoesAdicionais>InformacoesAdicionais0</InformacoesAdicionais>
+            <InformacoesAdicionais>BANANA</InformacoesAdicionais>
             <Assinantes>
                 <Assinante>
-                    <CPF>00000000000</CPF>
-                    <Cargo>Reitor</Cargo>
+                  <CPF>00000000000</CPF>
+                  <Cargo>Reitor</Cargo>
                 </Assinante>
                 <Assinante>
-                    <CPF>00000000000</CPF>
-                    <Cargo>Reitor</Cargo>
+                  <CPF>00000000000</CPF>
+                  <Cargo>Reitor</Cargo>
                 </Assinante>
             </Assinantes>
         </DadosRegistro>
