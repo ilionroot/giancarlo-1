@@ -529,8 +529,12 @@ data_habilitacao_2 = st.date_input("Data da Habilitação 2")
 modalidade_curso = st.selectbox(
     "Modalidade do Curso", ["Presencial", "EaD", "Semipresencial"]
 )
-titulo_conferido = st.text_input("Título Conferido")
-grau_conferido = st.text_input("Grau Conferido")
+titulo_conferido = st.selectbox(
+    "Título Conferido", ["Licenciado", "Tecnólogo", "Bacharel", "Médico"]
+)
+grau_conferido = st.selectbox(
+    "Grau Conferido", ["Tecnólogo", "Bacharelado", "Licenciatura", "Curso sequencial"]
+)
 enfase_1 = st.text_input("Ênfase 1")
 enfase_2 = st.text_input("Ênfase 2")
 endereco_curso_logradouro = st.text_input("Logradouro do Endereço do Curso")

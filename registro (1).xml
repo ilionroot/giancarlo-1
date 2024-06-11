@@ -158,8 +158,8 @@
                   <Bairro>Bairro4</Bairro>
                   <CodigoMunicipio>0000000</CodigoMunicipio>
                   <NomeMunicipio>NomeMunicipio2</NomeMunicipio>
-                  <UF>AC</UF>
-                  <CEP>00000000</CEP>
+                  <UF>SP</UF>
+                  <CEP>0000000</CEP>
                </Endereco>
             </Mantenedora>
          </IesEmissora>

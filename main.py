@@ -597,7 +597,7 @@ def generate_school_records_xml(dados):
 
     # Converte o elemento raiz para uma string XML
     xml_output = etree.tostring(
-        root, pretty_print=True, xml_declaration=True, encoding="UTF-8"
+        root, pretty_print=True, xml_declaration=True, encoding="UTF-8", indent="    "
     )
 
     return xml_output

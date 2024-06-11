@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Diploma xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
- xmlns="http://portal.mec.gov.br/diplomadigital/arquivos-em-xsd"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <infDiploma versao="1.05" id="VDip11111111111111111111111111111111111111111111" ambiente="Produção">
+<Diploma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://portal.mec.gov.br/diplomadigital/arquivos-em-xsd digital_degree.xsd"
+ xmlns="http://portal.mec.gov.br/diplomadigital/arquivos-em-xsd">
+    <infDiploma versao="1.05" id="VDip11111111111111111111111111111111111111111111" ambiente="Produção">
         <DadosDiploma id="Dip11111111111111111111111111111111111111111111">
             <Diplomado>
                 <ID>Dip11111111111111111111111111111111111111111111</ID>
-                <Nome>Nome0</Nome>
-                <NomeSocial>NomeSocial0</NomeSocial>
+                <Nome>PATRICIA ELIANE DE MORAES</Nome>
+                <NomeSocial>BANANA</NomeSocial>
                 <Sexo>F</Sexo>
-                <Nacionalidade>Nacionalidade0</Nacionalidade>
+                <Nacionalidade>BRASILEIRA</Nacionalidade>
                 <Naturalidade>
-                    <NomeMunicipioEstrangeiro>NomeMunicipioEstrangeiro0</NomeMunicipioEstrangeiro>
+                    <NomeMunicipioEstrangeiro>BANANA</NomeMunicipioEstrangeiro>
                 </Naturalidade>
-                <CPF>00000000000</CPF>
+                <CPF>09864607880</CPF>
                 <RG>
-                    <Numero>Numero0</Numero>
-                    <OrgaoExpedidor>OrgaoExpedidor0</OrgaoExpedidor>
-                    <UF>AC</UF>
+                    <Numero>237077449</Numero>
+                    <OrgaoExpedidor>BANANA</OrgaoExpedidor>
+                    <UF>SP</UF>
                 </RG>
-                <DataNascimento>2006-05-04</DataNascimento>
+                <DataNascimento>1972-01-28</DataNascimento>
             </Diplomado>
-            <DataConclusao>2006-05-04</DataConclusao>
+            <DataConclusao>2024-06-09</DataConclusao>
             <DadosCurso>
-                <NomeCurso>NomeCurso0</NomeCurso>
+                <NomeCurso>PEDAGOGIA</NomeCurso>
                 <CodigoCursoEMEC>214748364</CodigoCursoEMEC>
                 <Habilitacao>
-                    <NomeHabilitacao>NomeHabilitacao0</NomeHabilitacao>
-                    <DataHabilitacao>2006-05-04</DataHabilitacao>
+                    <NomeHabilitacao>BANANA</NomeHabilitacao>
+                    <DataHabilitacao>2024-06-10</DataHabilitacao>
                 </Habilitacao>
                 <Habilitacao>
-                    <NomeHabilitacao>NomeHabilitacao1</NomeHabilitacao>
-                    <DataHabilitacao>2006-05-04</DataHabilitacao>
+                    <NomeHabilitacao>BANANA</NomeHabilitacao>
+                    <DataHabilitacao>2024-06-09</DataHabilitacao>
                 </Habilitacao>
                 <Modalidade>Presencial</Modalidade>
                 <TituloConferido>
                     <Titulo>Licenciado</Titulo>
                 </TituloConferido>
-                <GrauConferido>Tecnólogo</GrauConferido>
-                <Enfase>Enfase0</Enfase>
-                <Enfase>Enfase1</Enfase>
+                <GrauConferido>Licenciatura</GrauConferido>
+                <Enfase>BANANA</Enfase>
+                <Enfase>BANANA</Enfase>
                 <EnderecoCurso>
-                    <Logradouro>Logradouro0</Logradouro>
-                    <Numero>Numero1</Numero>
-                    <Complemento>Complemento0</Complemento>
-                    <Bairro>Bairro0</Bairro>
-                    <CodigoMunicipio>0000000</CodigoMunicipio>
-                    <NomeMunicipio>NomeMunicipio0</NomeMunicipio>
-                    <UF>AC</UF>
+                    <Logradouro>Rua José Marques Garcia</Logradouro>
+                    <Numero>197</Numero>
+                    <Complemento>Complemento</Complemento>
+                    <Bairro>CIDADE NOVA</Bairro>
+                    <CodigoMunicipio>3516200</CodigoMunicipio>
+                    <NomeMunicipio>FRANCA</NomeMunicipio>
+                    <UF>SP</UF>
                     <CEP>00000000</CEP>
                 </EnderecoCurso>
                 <Polo>
-                    <Nome>Nome1</Nome>
+                    <Nome>BANANA</Nome>
                     <Endereco>
-                        <Logradouro>Logradouro1</Logradouro>
-                        <Bairro>Bairro1</Bairro>
-                        <NomeMunicipioEstrangeiro>NomeMunicipioEstrangeiro1</NomeMunicipioEstrangeiro>
+                        <Logradouro>BANANA</Logradouro>
+                        <Bairro>BANANA</Bairro>
+                        <NomeMunicipioEstrangeiro>BANANA</NomeMunicipioEstrangeiro>
                         <CEP>00000000</CEP>
                     </Endereco>
                     <CodigoEMEC>214748364</CodigoEMEC>
@@ -63,16 +63,16 @@
                 <Autorizacao>
                     <InformacoesTramitacaoEMEC>
                         <NumeroProcesso>214748364</NumeroProcesso>
-                        <TipoProcesso>TipoProcesso0</TipoProcesso>
-                        <DataCadastro>2006-05-04</DataCadastro>
-                        <DataProtocolo>2006-05-04</DataProtocolo>
+                        <TipoProcesso>PORTARIA</TipoProcesso>
+                        <DataCadastro>2024-06-09</DataCadastro>
+                        <DataProtocolo>2024-06-09</DataProtocolo>
                     </InformacoesTramitacaoEMEC>
                 </Autorizacao>
                 <Reconhecimento>
                     <Tipo>Parecer</Tipo>
                     <Numero>S/N</Numero>
-                    <Data>2006-05-04</Data>
-                    <VeiculoPublicacao>VeiculoPublicacao0</VeiculoPublicacao>
+                    <Data>2024-06-09</Data>
+                    <VeiculoPublicacao>BANANA</VeiculoPublicacao>
                     <DataPublicacao>2006-05-04</DataPublicacao>
                     <SecaoPublicacao>214748364</SecaoPublicacao>
                     <PaginaPublicacao>214748364</PaginaPublicacao>
@@ -81,26 +81,26 @@
                 <RenovacaoReconhecimento>
                     <Tipo>Parecer</Tipo>
                     <Numero>S/N</Numero>
-                    <Data>2006-05-04</Data>
-                    <VeiculoPublicacao>VeiculoPublicacao1</VeiculoPublicacao>
-                    <DataPublicacao>2006-05-04</DataPublicacao>
+                    <Data>2024-06-09</Data>
+                    <VeiculoPublicacao>BANANA</VeiculoPublicacao>
+                    <DataPublicacao>2024-06-09</DataPublicacao>
                     <SecaoPublicacao>214748364</SecaoPublicacao>
                     <PaginaPublicacao>214748364</PaginaPublicacao>
                     <NumeroDOU>214748364</NumeroDOU>
                 </RenovacaoReconhecimento>
             </DadosCurso>
             <DadosIesOriginalCursoPTA>
-                <Nome>Nome2</Nome>
-                <CodigoMEC_Indisponivel/>
+                <Nome>BANANA</Nome>
+                <CodigoMEC_Indisponivel />
                 <CNPJ>00000000000000</CNPJ>
                 <Endereco>
-                    <Logradouro>Logradouro2</Logradouro>
-                    <Numero>Numero4</Numero>
-                    <Complemento>Complemento1</Complemento>
-                    <Bairro>Bairro2</Bairro>
+                    <Logradouro>BANANA</Logradouro>
+                    <Numero>BANANA</Numero>
+                    <Complemento>BANANA</Complemento>
+                    <Bairro>BANANA</Bairro>
                     <CodigoMunicipio>0000000</CodigoMunicipio>
-                    <NomeMunicipio>NomeMunicipio1</NomeMunicipio>
-                    <UF>AC</UF>
+                    <NomeMunicipio>BANANA</NomeMunicipio>
+                    <UF>SP</UF>
                     <CEP>00000000</CEP>
                 </Endereco>
                 <Descredenciamento>
@@ -178,7 +178,7 @@
         </DadosDiploma>
         <DadosRegistro id="RDip11111111111111111111111111111111111111111111">
             <IesRegistradora>
-                <Nome>Nome4</Nome>
+                <Nome>BANANA</Nome>
                 <CodigoMEC>214748364</CodigoMEC>
                 <CNPJ>00000000000000</CNPJ>
                 <Endereco>
@@ -228,41 +228,45 @@
                     <NumeroDOU>214748364</NumeroDOU>
                 </AtoRegulatorioAutorizacaoRegistro>
                 <Mantenedora>
-                    <RazaoSocial>RazaoSocial1</RazaoSocial>
+                    <RazaoSocial>RazaoSocial0</RazaoSocial>
                     <CNPJ>00000000000000</CNPJ>
                     <Endereco>
-                        <Logradouro>Logradouro6</Logradouro>
-                        <Bairro>Bairro6</Bairro>
+                        <Logradouro>Logradouro4</Logradouro>
+                        <Bairro>Bairro4</Bairro>
                         <CodigoMunicipio>0000000</CodigoMunicipio>
-                        <NomeMunicipio>NomeMunicipio4</NomeMunicipio>
+                        <NomeMunicipio>NomeMunicipio2</NomeMunicipio>
                         <UF>AC</UF>
                         <CEP>00000000</CEP>
                     </Endereco>
                 </Mantenedora>
             </IesRegistradora>
             <LivroRegistro>
-                <LivroRegistro></LivroRegistro>
-                <NumeroFolhaDoDiploma></NumeroFolhaDoDiploma>
-                <NumeroSequenciaDoDiploma></NumeroSequenciaDoDiploma>
-                <ProcessoDoDiploma></ProcessoDoDiploma>
-                <DataColacaoGrau>2024-06-10</DataColacaoGrau>
-                <DataExpedicaoDiploma>2024-06-10</DataExpedicaoDiploma>
-                <DataRegistroDiploma>2024-06-10</DataRegistroDiploma>
+                <LivroRegistro>LivroRegistro0</LivroRegistro>
+                <NumeroFolhaDoDiploma>NumeroFolhaDoDiploma0</NumeroFolhaDoDiploma>
+                <NumeroSequenciaDoDiploma>NumeroSequenciaDoDiploma0</NumeroSequenciaDoDiploma>
+                <ProcessoDoDiploma>ProcessoDoDiploma0</ProcessoDoDiploma>
+                <DataColacaoGrau>2006-05-04</DataColacaoGrau>
+                <DataExpedicaoDiploma>2006-05-04</DataExpedicaoDiploma>
+                <DataRegistroDiploma>2006-05-04</DataRegistroDiploma>
                 <ResponsavelRegistro>
-                <Nome>Teste</Nome>
-                <CPF>37114335881</CPF>
-                <IDouNumeroMatricula>3132321321</IDouNumeroMatricula>
+                    <Nome>Nome5</Nome>
+                    <CPF>00000000000</CPF>
+                    <IDouNumeroMatricula>IDouNumeroMatricula0</IDouNumeroMatricula>
                 </ResponsavelRegistro>
             </LivroRegistro>
-            <IdDocumentacaoAcademica>32132132132</IdDocumentacaoAcademica>
+            <IdDocumentacaoAcademica>ReqDip11111111111111111111111111111111111111111111</IdDocumentacaoAcademica>
             <Seguranca>
-                <CodigoValidacao>321323123213</CodigoValidacao>
+                <CodigoValidacao>0.0.000000000000</CodigoValidacao>
             </Seguranca>
-            <InformacoesAdicionais></InformacoesAdicionais>
+            <InformacoesAdicionais>BANANA</InformacoesAdicionais>
             <Assinantes>
                 <Assinante>
-                <CPF></CPF>
-                <Cargo></Cargo>
+                    <CPF>00000000000</CPF>
+                    <Cargo>Reitor</Cargo>
+                </Assinante>
+                <Assinante>
+                    <CPF>00000000000</CPF>
+                    <Cargo>Reitor</Cargo>
                 </Assinante>
             </Assinantes>
         </DadosRegistro>
