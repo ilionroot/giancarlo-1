@@ -631,8 +631,12 @@ with tabs[0]:
     modalidade_curso = st.selectbox(
         "Modalidade do Curso", ["Presencial", "EaD", "Semipresencial"]
     )
-    titulo_conferido = st.text_input("Título Conferido")
-    grau_conferido = st.text_input("Grau Conferido")
+    modalidade_curso = st.selectbox(
+        "Modalidade do Curso", ["Presencial", "EaD", "Semipresencial"]
+    )
+    titulo_conferido = st.selectbox(
+        "Título Conferido", ["Licenciado", "Tecnólogo", "Bacharel", "Médico"]
+    )
     enfase_1 = st.text_input("Ênfase 1")
     enfase_2 = st.text_input("Ênfase 2")
     endereco_curso_logradouro = st.text_input("Logradouro do Endereço do Curso")
