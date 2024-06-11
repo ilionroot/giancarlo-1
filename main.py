@@ -597,7 +597,7 @@ def generate_school_records_xml(dados):
 
     # Converte o elemento raiz para uma string XML
     xml_output = etree.tostring(
-        root, pretty_print=True, xml_declaration=True, encoding="UTF-8", indent="    "
+        root, pretty_print=True, xml_declaration=True, encoding="UTF-8"
     )
 
     return xml_output
@@ -631,11 +631,12 @@ with tabs[0]:
     modalidade_curso = st.selectbox(
         "Modalidade do Curso", ["Presencial", "EaD", "Semipresencial"]
     )
-    modalidade_curso = st.selectbox(
-        "Modalidade do Curso", ["Presencial", "EaD", "Semipresencial"]
-    )
     titulo_conferido = st.selectbox(
         "Título Conferido", ["Licenciado", "Tecnólogo", "Bacharel", "Médico"]
+    )
+    grau_conferido = st.selectbox(
+        "Grau Conferido",
+        ["Tecnólogo", "Bacharelado", "Licenciatura", "Curso sequencial"],
     )
     enfase_1 = st.text_input("Ênfase 1")
     enfase_2 = st.text_input("Ênfase 2")
