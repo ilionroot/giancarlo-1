@@ -1,8 +1,18 @@
+import random
+import string
+
 import streamlit as st
 from lxml import etree
 
 
 def generate_xml1(data):
+    def generate_random_vdip(length=44):
+        characters = string.digits
+        vdip = "".join(random.choice(characters) for _ in range(length))
+        return vdip
+
+    random_code = generate_random_vdip()
+
     root = etree.Element(
         "Diploma",
         xmlns="http://portal.mec.gov.br/diplomadigital/arquivos-em-xsd",
@@ -12,18 +22,14 @@ def generate_xml1(data):
         root,
         "infDiploma",
         versao="1.05",
-        id="VDip11111111111111111111111111111111111111111111",
+        id=f"VDip{random_code}",
         ambiente="Produção",
     )
 
-    DadosDiploma = etree.SubElement(
-        infDiploma, "DadosDiploma", id="Dip11111111111111111111111111111111111111111111"
-    )
+    DadosDiploma = etree.SubElement(infDiploma, "DadosDiploma", id=f"Dip{random_code}")
 
     Diplomado = etree.SubElement(DadosDiploma, "Diplomado")
-    etree.SubElement(Diplomado, "ID").text = (
-        "Dip11111111111111111111111111111111111111111111"
-    )
+    etree.SubElement(Diplomado, "ID").text = f"Dip{random_code}"
     etree.SubElement(Diplomado, "Nome").text = data["nome"]
     etree.SubElement(Diplomado, "NomeSocial").text = data["nome_social"]
     etree.SubElement(Diplomado, "Sexo").text = data["sexo"]
@@ -315,7 +321,7 @@ def generate_xml1(data):
     DadosRegistro = etree.SubElement(
         infDiploma,
         "DadosRegistro",
-        id="RDip11111111111111111111111111111111111111111111",
+        id=f"RDip{random_code}",
     )
 
     IesRegistradora = etree.SubElement(DadosRegistro, "IesRegistradora")
